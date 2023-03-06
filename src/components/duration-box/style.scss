@@ -1,0 +1,60 @@
+.dy-finance-calculator-widget__duration-box {
+  padding: 12px 14px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+
+  @media (max-width: 1110px) {
+    padding: 12px 32px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+
+  p {
+    font-size: 12px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    color: #272727;
+    cursor: pointer;
+    text-decoration: underline;
+    grid-column: 3/5;
+    place-items: center start;
+
+    @media (max-width: 1110px) {
+      grid-column: 1/4;
+      font-size: 14px;
+      place-items: center center;
+    }
+
+    &:hover {
+      color: #423E3E;
+    }
+  }
+}
+
+.dy-finance-calculator-widget__duration-box__button {
+  font-size: 12px;
+  background: none;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  height: 24px;
+
+  &:hover {
+    border-color: #959392;
+  }
+
+  @media (max-width: 1110px) {
+    height: 40px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.dy-finance-calculator-widget__duration-box__button-selected {
+  background-color: #F4F4F4;
+  border-color: #272727;
+}
