@@ -10,7 +10,7 @@ class ProductController extends Controller {
   }
 
   #getPrice = () => {
-    const priceBox = document.querySelector('.value.product-pricing__now-value.js-final-price')
+    const priceBox = document.querySelector('.product-detail__addto-section .value.product-pricing__now-value.js-final-price')
 
     if (priceBox) {
       const price = priceBox.getAttribute('data-finalprice')

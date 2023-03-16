@@ -13,28 +13,20 @@ export default ({ selectedDuration, setDuration }) => {
 
   const durations = [
     {
-      value: 6,
-      display: '6 months',
-    },
-    {
       value: 12,
-      display: '1 year',
-    },
-    {
-      value: 18,
-      display: '18 months',
+      display: '12 months',
     },
     {
       value: 24,
-      display: '2 years',
+      display: '24 months',
     },
     {
       value: 36,
-      display: '3 years',
+      display: '36 months',
     },
     {
       value: 48,
-      display: '4 years',
+      display: '48 months',
     },
   ]
 

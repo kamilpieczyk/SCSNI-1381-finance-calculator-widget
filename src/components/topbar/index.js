@@ -14,23 +14,17 @@ export default ({ instalment, selectedDuration }) => {
 
   const handleDisplayedDuration = () => {
     switch(selectedDuration) {
-      case 6:
-        setDuration('6 months');
-        return;
       case 12:
-        setDuration('1 year');
-        return;
-      case 18:
-        setDuration('18 months');
+        setDuration('12 months');
         return;
       case 24:
-        setDuration('2 years');
+        setDuration('24 months');
         return;
       case 36:
-        setDuration('3 years');
+        setDuration('36 months');
         return;
       case 48:
-        setDuration('4 years');
+        setDuration('48 months');
         return;
     }
   }

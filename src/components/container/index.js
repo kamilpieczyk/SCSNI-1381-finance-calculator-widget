@@ -11,7 +11,7 @@ import './style.scss'
 
 const Container = () => {
   const [instalment, setInstalment] = useState(0)
-  const [duration, setDuration] = useState(6)
+  const [duration, setDuration] = useState(48)
 
   const product = new ProductController();
 
